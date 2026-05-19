@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>플로트와 포지션</title>
+    <style>
+   .box {
+        width: 100px;
+        height: 100px;
+      }
+      .static {
+        /* position: static; */
+        background-color: gray;
+      }
+    .relative{
+        position: relative;
+        background-color: teal;
+        top: 12px;
+        left: 12px;
+    }
+        .absolute{
+        position: relative;
+        background-color: teal;
+        top: 12px;
+        left: 12px;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div style="width: 100px; height: 100px; background-color: brown">
+        박스
+      </div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia adipisci nam laboriosam eligendi officia, atque inventore sit fugiat libero deserunt ut quae deleniti illo veritatis natus voluptas amet enim tempore.
+    </div>
+
+    <!-- emmet -> 선택자의 문법을 바탕으로 (아외에도 좀 플러스)
+     간단하게 html 태그를 구조화하며 만들 수 있는 단축어 -->
+
+          <h3>position</h3>
+          <div>
+            <div class="box static">static</div>
+            <div class="box static">static</div>
+            <div class="box static">s</div>
+          </div>
+  </body>
+</html>
